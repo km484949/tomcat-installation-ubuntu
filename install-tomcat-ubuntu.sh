@@ -47,7 +47,7 @@ sudo systemctl is-active --quiet tomcat
 echo "\n################################################################ \n"
 if [ $? -eq 0 ]; then
 	echo "Tomcat installed Successfully"
-	echo "Access Tomcat using $(curl -s ifconfig.me):8080"
+	echo "Access Tomcat using $(curl -s ifconfig.me):8081"
 else
 	echo "Tomcat installation failed"
 fi
